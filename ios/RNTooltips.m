@@ -65,7 +65,7 @@ RCT_EXPORT_METHOD(Show:(nonnull NSNumber *)targetViewTag inParentView:(nonnull N
     toolTip.color = [RNTooltips colorFromHexCode: tintColor];
     toolTip.cornerRadius = [corner floatValue];
     toolTip.dismissesOnTap = [clickToHide boolValue];
-    toolTip.padding = UIEdgeInsetsMake(6.0, 8.0, 6.0, 8.0);
+    toolTip.padding = UIEdgeInsetsMake(14.0, 9.0, 14.0, 9.0);
     
     if (![arrow boolValue]) {
         toolTip.arrowHeight = 0;
